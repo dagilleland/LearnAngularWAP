@@ -35,6 +35,11 @@
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
                 <%--Site Scripts--%>
+                <asp:ScriptReference Path="~/Scripts/angular.js" />
+                <asp:ScriptReference Path="~/Scripts/angular-loader.js" />
+                <asp:ScriptReference Path="~/Scripts/angular-route.js" />
+                <asp:ScriptReference Path="~/Scripts/angular-resource.js" />
+                <asp:ScriptReference Path="~/Scripts/angular-sanitize.js" />
             </Scripts>
         </asp:ScriptManager>
 
