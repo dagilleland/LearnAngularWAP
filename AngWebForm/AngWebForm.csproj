@@ -328,6 +328,16 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Framework\Context\Database\Data.cs" />
+    <Compile Include="Framework\Context\IDbContext.cs" />
+    <Compile Include="Framework\Context\ResumeDbContext.cs" />
+    <Compile Include="Framework\Models\Education.cs" />
+    <Compile Include="Framework\Models\EducationalLevel.cs" />
+    <Compile Include="Framework\Models\Resume.cs" />
+    <Compile Include="Framework\Models\ResumeStatus.cs" />
+    <Compile Include="Framework\Models\School.cs" />
+    <Compile Include="Framework\Models\User.cs" />
+    <Compile Include="Framework\Models\WorkExperience.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
